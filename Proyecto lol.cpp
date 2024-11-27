@@ -60,7 +60,7 @@ int main(){
     vehiculos[1] = {"FF150MBRS5", "Ford", "F-150", "Ford", {5,4, 2034}, 4};
     
 
-    /* Para el menú final después de introducir los pilotos y sus vehículos*/
+    /* Para el menú final después de leer los pilotos y sus vehículos*/
     cout<<"Prosiga su consulta con el siguiente menu"<<endl;
     while (opcion != 9){
         cout<<"1. Alta del automovil y del piloto"<<endl;
