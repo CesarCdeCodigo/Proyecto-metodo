@@ -25,7 +25,7 @@ struct fecha{
     int anio;
 };
 
-int const TAMComp=2;
+int const TAMComp=10;
 struct piloto{
     string nombre;
     struct fecha nacimiento;
@@ -55,9 +55,13 @@ int main(){
 
     /* Para los datos de los pilotos */
     pilot[0] = {"Cesar Martinez", {3,1,2006}, 37, "Mexico", "Priv. El Zapote"};
-    vehiculos[0] = {"FMF1967HGOS5", "Ford", "Mustang Fastback 1967", "Red Bull", {7,7,2037}, 1};
+    vehiculos[0] = {"FMF1967HGOS5", "Ford", "Mustang Fastback 1967", "Red Bull", {7,7,2037}, 5};
     pilot[1] = {"Fernando Fernandez", {6,12,2000}, 40, "Mexico","Av. Del Carmen"};
     vehiculos[1] = {"FF150MBRS5", "Ford", "F-150", "Ford", {5,4, 2034}, 4};
+    pilot[2] = {"Toreto", {5,19,1979}, "Brasil", "Calle Marsupial"}
+    vehiculos[2] = {"AFSL1042WOFT6", "Dodge", "Charger", "Williams Racing", {4, 13, 2010}, 1}
+    pilot[3] = {"Rayo McQueen", {2, 14, 1989}, 45, "Estados Unidos", "California"}
+    vehiculos[3] = {}
     
 
     /* Para el menú final después de leer los pilotos y sus vehículos*/
