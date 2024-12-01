@@ -104,7 +104,7 @@ int main(){
         break;
     case 2:
         cout<<"Buscar un automovil"<<endl;
-
+        buscarVehiculo(vehiculos, pilot, TAMComp);
         break;
     case 3:
         cout<<"Listar los automoviles por escuderia"<<endl;
